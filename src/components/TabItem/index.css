@@ -1,0 +1,28 @@
+.tab {
+  font-family: 'Roboto';
+  padding: 0px;
+}
+
+.tab-button {
+  background-color: transparent;
+  border: 0px solid;
+  color: #7b8794;
+  font-weight: bold;
+  margin: 0px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  border-bottom: 3px solid #dfe2e5;
+}
+
+.apply-style {
+  border-bottom: 3px solid #2563eb;
+  color: #2563eb;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-button {
+    font-size: 20px;
+  }
+}

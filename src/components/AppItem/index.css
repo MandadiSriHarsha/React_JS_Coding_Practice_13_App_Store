@@ -1,0 +1,41 @@
+.app {
+  background-color: #ffffff;
+  font-family: 'Bree Serif';
+  border: 0px solid;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  width: 130px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.app-image {
+  height: 70px;
+  width: 70px;
+}
+
+.app-name {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    height: 200px;
+    width: 180px;
+  }
+  .app-image {
+    height: 100px;
+    width: 100px;
+  }
+  .app-name {
+    font-size: 20px;
+  }
+}
